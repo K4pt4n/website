@@ -28,5 +28,5 @@ jobs:
 
       - name: Docker Build
         run: |
-          cd src
+          ls
           docker build Dockerfile
