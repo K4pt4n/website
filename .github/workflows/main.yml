@@ -6,9 +6,7 @@ name: aks-deploy
 on:
   # Triggers the workflow on push or pull request events but only for the main branch
   push:
-    branches: [  ]
-  pull_request:
-    branches: [  ]
+    branches: [release/*]
 
   # Allows you to run this workflow manually from the Actions tab
   workflow_dispatch:
@@ -25,8 +23,14 @@ jobs:
       # Checks-out your repository under $GITHUB_WORKSPACE, so your job can access it
       - name: Checkout
         uses: actions/checkout@v2
-
+      
+      - name: Docker Login
+        uses: azure/docker-login@v1
+        with:
+          login-server: knpro.azurecr.io
+          username: ${{ secrets.REGISTRY_USERNAME }}
+          password: ${{ secrets.REGISTRY_PASSWORD }}
+      
       - name: Docker Build
         run: |
           ls
-          docker build Dockerfile
