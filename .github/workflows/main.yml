@@ -33,4 +33,5 @@ jobs:
       
       - name: Docker Build
         run: |
-          ls
+          docker build ./src -t knpro.azurecr.io/kn-website:${{ github.sha }}
+          docker push knpro.azurecr.io/kn-website:${{ github.sha }}
