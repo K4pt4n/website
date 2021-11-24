@@ -1,0 +1,16 @@
+[
+	{
+		"name":"Microsoft Certified: Azure Administrator Associate",
+		"description": "Microsoft Certified: Azure Administrator Associate",
+		"badge":"img/azure-administrator-associate-600x600.png",
+		"proof":""
+
+	},
+	{
+		"name":"MCSE: Cloud Platform and Infrastructure — Certified 2018",
+		"description": "MCSE: Cloud Platform and Infrastructure — Certified 2018",
+		"badge":"img/MCSE-Cloud-Platform-Infrastructure-2018.png",
+		"proof":""
+
+	}
+]

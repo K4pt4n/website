@@ -1,0 +1,13 @@
+**/.git/
+**/.cache/
+**/.gitmodules
+**/.gitignore
+**/.dockerignore
+**/Dockerfile
+**/.circleci/
+**/Jenkinsfile
+**/LICENSE.md
+**/README.md
+
+**/exampleSite/
+**/themes/resume/images/

@@ -1,0 +1,44 @@
+[
+    {
+        "grouping": "DevOps / Automation",
+        "skills": [
+            "Azure Devops",
+            "Pipeline Creation / Management",
+            "Git",
+            "Powershell Scripting",
+            "Powershell DSC (Desired State Configuration)",
+            "Chef"
+        ]
+    },
+    {
+        "grouping": "Cloud - Azure",
+        "skills": [
+            "ARM Templates",
+            "Storage",
+            "Networking",
+            "Azure SQL",
+            "Virtual Desktop",
+            "Web Apps",
+            "Application Insights",
+            "Dev/Test Labs",
+            "Redis",
+            "Virtual Machines"
+        ]
+    },
+    {
+        "grouping": "Infrastructure",
+        "skills": [
+            "Windows Server",
+            "Linux",
+            "Kubernetes",
+            "Hyper-V",
+            "VMWare",
+            "Active Directory",
+            "Network Load Balancing",
+            "IIS",
+            "Switch Configuration",
+            "Firewall Configuration",
+            ""
+        ]
+    }            
+]
