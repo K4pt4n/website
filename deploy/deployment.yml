@@ -1,0 +1,22 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: resume
+  namespace: resume
+  labels:
+    app: resume
+spec:
+  replicas: 2
+  selector:
+    matchLabels:
+      app: resume
+  template:
+    metadata:
+      labels:
+        app: resume
+    spec:
+      containers:
+      - name: website
+        image: knpro.azurecr.io/website:latest
+        ports:
+        - containerPort: 80
