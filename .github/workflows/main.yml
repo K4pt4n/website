@@ -30,8 +30,31 @@ jobs:
           login-server: knpro.azurecr.io
           username: ${{ secrets.REGISTRY_USERNAME }}
           password: ${{ secrets.REGISTRY_PASSWORD }}
-      
       - name: Docker Build
         run: |
           docker build ./src -t knpro.azurecr.io/kn-website:${{ github.sha }}
           docker push knpro.azurecr.io/kn-website:${{ github.sha }}
+      - name: AKS Context
+        uses: Azure/aks-set-context@v1
+        with:
+          creds: ''
+          resource-group: 'AKS-KN-Professional'
+          cluster-name: 'kn'
+        id: login
+      - name: Image Pull Secret
+        uses: Azure/k8s-create-secret@v1
+        with:
+          container-registry-url: contoso.azurecr.io
+          container-registry-username: ${{ secrets.REGISTRY_USERNAME }}
+          container-registry-password: ${{ secrets.REGISTRY_PASSWORD }}
+          secret-name: knpro-image-pull-secret
+      - name: Deploy to AKS
+        uses: Azure/k8s-deploy@v1.4
+        with:
+          namespace: resume
+          manifests: |
+            deploy/deployment.yml
+            deploy/service.yml
+          images: 'knpro.azurecr.io/kn-website:${{ github.sha }}'
+          imagepullsecrets: |
+            knpro-image-pull-secret
