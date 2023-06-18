@@ -1,7 +1,7 @@
 #
 #. This config file adds support for Netlify CMS, exposed at /admin on the running site.
 # In order to use this on your site,
-#. 1) replace instances of "exampleSite/......" with the appropriate paths, relative from repository root.
+#. 1) replace instances of "src/......" with the appropriate paths, relative from repository root.
 #. 2) replace repo path in `backend` settings, and set branch to master.
 #  3) Optionally enable the [editor workflow](https://www.netlifycms.org/docs/configuration-options/#publish-mode) which uses PRs for content changes
 #  4) Optionally enable [open authoring](https://www.netlifycms.org/docs/open-authoring/) for community sites, which requires #3
@@ -129,7 +129,7 @@ collections: # A list of collections the CMS should be able to edit
                 name: 'google'
                 widget: 'object'
                 fields: 
-                  - { label: 'analytics', name: 'analytics', widget: 'object',fields: [{ label: 'Tracker ID', name: 'trackerID', widget: 'string' }]  }
+                  - { label: 'analytics', name: 'analytics', widget: 'object',fields: [{ label: 'Tracker ID', name: 'trackerID', widget: 'string', required: false }]  }
               
           - { label: 'Show Git Commit INfo', name: 'enableGitInfo', widget: 'boolean', required: false }
           - { label: 'outputs', name: 'outputs', widget: 'object', field: {name: 'home', label: 'home' , widget: list, default: ['HTML','JSON'] }}
