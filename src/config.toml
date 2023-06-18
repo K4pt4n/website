@@ -1,7 +1,7 @@
 baseURL = "http://127.0.0.1"
 languageCode = "en-us"
 title = "Kirk Newson"
-theme = "resume"
+theme = "hugo-resume"
 PygmentsCodeFences = true
 PygmentsCodeFencesGuessSyntax = true
 PygmentsStyle = "monokai"
