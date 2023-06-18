@@ -1,7 +1,7 @@
-baseURL = "http://127.0.0.1"
-languageCode = "en-us"
 title = "Kirk Newson"
+baseURL = "http://127.0.0.1"
 theme = "hugo-resume"
+languageCode = "en-us"
 PygmentsCodeFences = true
 PygmentsCodeFencesGuessSyntax = true
 PygmentsStyle = "monokai"
@@ -15,11 +15,12 @@ firstName = "Kirk"
 lastName = "Newson"
 phone = "+64 21 957 845"
 profileImage = "img/me-160.png"
+showBlog = true
 showEducation = true
 showExperience = true
-showOpenSource = true
+showOpenSource = false
 showProjects = true
-showPublications = true
+showPublications = false
 showQr = true
 showSkills = true
 
@@ -40,4 +41,4 @@ name = "GitHub"
 home = ["HTML", "JSON"]
 
 [taxonomies]
-tag = ["resume","tauranga","system","engineer"]
+tag = "tags"
