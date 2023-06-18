@@ -1,8 +1,44 @@
 [
     {
-        "role":"Boss man",
-        "company":"Current Company LTD",
-        "summary":"Led in development of fast paced software teams.\n- list\n- of\n- things",
-        "range":"February 2016 - Present"
+        "role":"Senior Systems Engineer",
+        "company":"ISO Limited",
+        "summary": "- Architect and implementation engineer for new project involving container-based image processing at the edge. This involved complicated networking, performance, and redundancy considerations.\n- Created Pipelines for new projects to build and deploy applications in Azure DevOps.\n- Implemented documentations systems to bring together a \"single source of truth\".\n- Implemented a centralised password store so all technicians can securely share credentials for systems among the team.\n- Lead Engineer on Hyper-V to VMWare migration.\n- Lead contact for rolling out SDWAN Connections.\n- Lead on work to re-establish redundancy and security on existing outdated systems.\n- Provided direction for tooling and platforms for the technology team.\n- 3D Object Design and Manufacture to meet business need.",
+        "range":"March 2022 - Present"
+    },
+    {
+        "role": "DevOps & Systems Manager",
+        "company": "Radford Software Ltd",
+        "summary": "- Responsible for IT infrastructure planning and implementation.\n- Responsible for managing software build pipelines.\n- Responsible for providing and maintaining test environments.\n- Consultant role for developers needing input regarding application integration.\n- Architected and implemented an application delivery system using Microsoft Remote Desktop Services in Azure. With the intent to scale into Azure Windows Virtual Desktop.\n- Assist with customer support as an escalation point.\n- Responsible for managing a small team providing internal IT services to the business.\n- Maintained the disaster recovery solution.\n- Installed and configured Ubiquiti EdgeRouter Pro as replacement for Juniper SRX. This included failover WAN connections and DMZ routing with VLANs .\n- Implemented Azure DevTestLabs for use by developers.\n- Created PowerBI dashboard for license usage reporting.\n- Continued monitoring and maintenance of Azure Workloads.",
+        "range": "July 2018 - February 2020"
+    },
+    {
+        "role": "DevOps & Systems Engineer",
+        "company": "Radford Software Ltd",
+        "summary": "- Responsible for IT infrastructure planning and implementation.\n- Responsible for managing software build pipelines.\n- Responsible for providing and maintaining test environments.\n- Created and maintained a Powershell solution for controlling a training system connecting multiple systems together and enabling a known state restore process.\n- Consultant role for developers needing input regarding application integration.\n- Consulted with customers when setting up infrastructure for Radfords applications. Including designing and maintaining an Azure WebApp + Azure SQL Database application.\n- Assist with customer support as an escalation point.\n- Created and maintained a software delivery solution using Azure and Frame (now a Nutanix product).\n- Designed, implemented and maintained a disaster recovery solution.\n- Installed and configured Juniper SRX firewall.\n- Implemented Ubiquiti UniFi AP AC Pro wireless access points.\n- Created DSC based method for deploying standard image. Both for end user SOE and server",
+        "range": "January 2015 - July 2018"
+    },
+    {
+        "role": "Network Administrator",
+        "company": "Radford Software Ltd",
+        "summary": "- Responsible for IT infrastructure planning and implementation.\n- Responsible for managing software build pipelines.\n- Consultant role for developers needing input regarding application integration.\n- Supported customers by installing and integrating Radfords applications.\n- Planned and implemented a Microsoft Team Foundation Server and assisted with configuring automated builds. This included automatic deployment to a multi-tier Web Server infrastructure.\n- Responsible for supporting the Windows Mobile based component of Radfords Products.\n- Installed and maintained 3CX phone system using Softphones, VoIP and SIP.",
+        "range": "January 2009 - January 2015"
+    },
+    {
+        "role": "Systems Engineer",
+        "company": "Gen-i (Now Spark Digital), Rotorua",
+        "range": "January 2009 - January 2015",
+        "summary": "- Performed break-fix and preventative maintenance on Servers and Workstations.\n- Supported multi-branch networks, using Citrix and terminal services over varying network topologies. These included WAN type structures as well as AdHoc VPN and Site-to-Site VPN.\n- This included the configuration and management of; Active Directory, Exchange, SQL Server, VMWare ESX Server, Group Policy, Firewalls.\n- Part of my role meant the support of users at remote locations and required me to be able to talk a user through troubleshooting problems such as remote connection."
+    },
+    {
+        "role": "Network Administrator / Telephony Engineer",
+        "company": "TEKNOW Solutions Limited",
+        "range": "February 2007 - October 2007",
+        "summary": "- Primary Technician for an Auckland based company.\n- Worked with server solutions including (but not limited to); Windows Small Business Server 2003, Microsoft SQL Server, Microsoft Exchange, and Active Directory.\n- Provided maintenance and implementation services for customers using Microsoft Windows solutions. \n- Installed and supported Avaya phone systems."
+    },
+    {
+        "role": "Network Technician",
+        "company": "Mark Two Network Ltd",
+        "range": "October 2003 - December 2006",
+        "summary": "- Investigated and fixed a range of problems in many different types of businesses, i.e. Lawyers, Schools and Trade companies.\n- Certified for work with the AVAYA branded phone system.\n- My work involved working with Microsoft products as well as many other third-party applications.\nI also had experience in Domain based networks (Including Exchange, Active Directory, Group Policy, File and Printer Sharing, SQL, Remote Access, etc.)."
     }
 ]

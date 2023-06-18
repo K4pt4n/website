@@ -1,9 +1,149 @@
 [
     {
-        "school":"Avonmore Tertiary Academy",
-        "degree":"Certificate in Computing",
-        "major":"Systems Engineering",
+        "school":"Microsoft Certification",
+        "degree":"Renewal - Azure Administrator Associate",
+        "major":"",
         "notes":"",
-        "range":"2002 - 2003"
+        "range":"2022"
+    },
+    {
+        "school":"Vertical Horizonz",
+        "degree":"NZQA - 23960, 23962, 23966",
+        "major":"Assess the worksite, prepare and operate a scissor lift or self-propelled boom lift EWP.",
+        "notes":"",
+        "range":"2022"
+    },
+    {
+        "school":"Microsoft Certification",
+        "degree":"Renewal - Azure Administrator Associate",
+        "major":"",
+        "notes":"",
+        "range":"2021"
+    },
+    {
+        "school":"Vertical Horizonz",
+        "degree":"NZQA - 10851",
+        "major":"Operate a powered industrial lift truck (forklift)",
+        "notes":"",
+        "range":"2021"
+    },
+    {
+        "school":"Vertical Horizonz",
+        "degree":"NZQA - 23229",
+        "major":"Use a safety harness for personal fall prevention when working at height.",
+        "notes":"",
+        "range":"2020"
+    },
+    {
+        "school":"Microsoft Certification",
+        "degree":"Microsoft® Certified: Azure Administrator Associate",
+        "major":"",
+        "notes":"",
+        "range":"2019"
+    },
+    {
+        "school":"Microsoft Certification",
+        "degree":"Microsoft® Certified Solutions Expert: Cloud Platform and Infrastructure",
+        "major":"",
+        "notes":"",
+        "range":"2018"
+    },
+    {
+        "school":"Microsoft Certification",
+        "degree":"Microsoft® Specialist: Architecting Microsoft Azure Infrastructure Solutions.",
+        "major":"",
+        "notes":"",
+        "range":"2018"
+    },
+    {
+        "school":"Microsoft Certification",
+        "degree":"Microsoft® Certified Solutions Associate: Cloud Platform",
+        "major":"",
+        "notes":"",
+        "range":"2017"
+    },
+    {
+        "school":"Microsoft Certification",
+        "degree":"Microsoft® Specialist: Implementing Microsoft Azure Infrastructure Solutions",
+        "major":"",
+        "notes":"",
+        "range":"2017"
+    },
+    {
+        "school":"Microsoft Certification",
+        "degree":"Microsoft® Specialist: Developing Microsoft Azure Solutions",
+        "major":"",
+        "notes":"",
+        "range":"2017"
+    },
+    {
+        "school":"Microsoft Certification",
+        "degree":"MCTS: Windows Server 2008 Active Directory, Configuration",
+        "major":"",
+        "notes":"",
+        "range":"2010"
+    },
+    {
+        "school":"Microsoft Certification",
+        "degree":"MCTS: Windows Server 2008 Network Infrastructure, Configuration",
+        "major":"",
+        "notes":"",
+        "range":"2010"
+    },
+    {
+        "school":"Microsoft Certification",
+        "degree":"MCTS: System Center Virtual Machine Manager 2008, Configuration",
+        "major":"",
+        "notes":"",
+        "range":"2009"
+    },
+    {
+        "school":"Microsoft Certification",
+        "degree":"Microsoft Certified System Administrator (MCSA): Windows Server 2003",
+        "major":"",
+        "notes":"",
+        "range":"2008"
+    },
+    {
+        "school":"Microsoft Certification",
+        "degree":"Microsoft 70-282 - Designing, Deploying and Managing a Network Solution for the Small and Medium Sized Business",
+        "major":"",
+        "notes":"",
+        "range":"2004"
+    },
+    {
+        "school":"AVAYA",
+        "degree":"AVAYA Installation and Maintenance Course",
+        "major":"",
+        "notes":"",
+        "range":"2004"
+    },
+    {
+        "school":"CompTIA",
+        "degree":"A+",
+        "major":"",
+        "notes":"",
+        "range":"2003"
+    },
+    {
+        "school":"CompTIA",
+        "degree":"Network+",
+        "major":"",
+        "notes":"",
+        "range":"2003"
+    },
+    {
+        "school":"Avonmore Tertiary Academy",
+        "degree":"National Diploma in Computer Engineering (Support) Level 5",
+        "major":"",
+        "notes":"",
+        "range":"2003"
+    },
+    {
+        "school":"NZTA / Waka Kotahi",
+        "degree":"Full Class 1 Driver License",
+        "major":"",
+        "notes":"",
+        "range":"2003"
     }
 ]
