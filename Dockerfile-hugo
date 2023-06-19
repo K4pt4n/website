@@ -1,0 +1,15 @@
+FROM nginx/alpine
+
+RUN apk add git
+RUN apk add hugo
+
+WORKDIR /src
+RUN git clone --remote-submodules --shallow-submodules -b main --depth 1 https://github.com/K4pt4n/website.git ./
+RUN git submodule update --init --recursive
+
+ARG HUGO_BASEURL
+ARG HUGO_ENV_ARG
+ENV HUGO_BASEURL=${HUGO_BASEURL:-http://localhost/}
+ENV HUGO_ENV_ARG=${HUGO_ENV_ARG:-production}
+RUN hugo --destination /site
+COPY /site /usr/share/nginx/html

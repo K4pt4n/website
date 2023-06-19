@@ -1,0 +1,9 @@
+.bg-primary {
+    background-color: darkgreen !important;
+}
+.text-primary {
+    color: darkgreen !important;
+}
+a {
+    color: darkgreen;
+}
