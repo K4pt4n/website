@@ -44,7 +44,7 @@ jobs:
       - name: Image Pull Secret
         uses: Azure/k8s-create-secret@v1
         with:
-          container-registry-url: contoso.azurecr.io
+          container-registry-url: knpro.azurecr.io
           container-registry-username: ${{ secrets.REGISTRY_USERNAME }}
           container-registry-password: ${{ secrets.REGISTRY_PASSWORD }}
           secret-name: knpro-image-pull-secret
