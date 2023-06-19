@@ -47,6 +47,7 @@ jobs:
           container-registry-username: ${{ secrets.REGISTRY_USERNAME }}
           container-registry-password: ${{ secrets.REGISTRY_PASSWORD }}
           secret-name: knpro-image-pull-secret
+          namespace: resume
       - name: Deploy to AKS
         uses: Azure/k8s-deploy@v1.4
         with:
