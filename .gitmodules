@@ -1,3 +1,8 @@
-[submodule "src/themes/hugo-resume"]
+[submodule "hugo-resume"]
 	path = src/themes/hugo-resume
 	url = https://github.com/eddiewebb/hugo-resume.git
+	fetchRecurseSubmodules = true
+	branch = master
+	update = rebase
+	shallow = true
+	active = true
