@@ -37,10 +37,9 @@ jobs:
       - name: AKS Context
         uses: Azure/aks-set-context@v1
         with:
-          creds: ''
+          creds: ${{ secrets.AZURE_CREDENTIALS }}
           resource-group: 'AKS-KN-Professional'
           cluster-name: 'kn'
-        id: login
       - name: Image Pull Secret
         uses: Azure/k8s-create-secret@v1
         with:
