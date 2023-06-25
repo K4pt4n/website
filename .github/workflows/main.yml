@@ -32,7 +32,7 @@ jobs:
           password: ${{ secrets.REGISTRY_PASSWORD }}
       - name: Docker Build
         run: |
-          docker build --build-arg HUGO_BASEURL=http://kirk.newson.nz -t knpro.azurecr.io/kn-website:${{ github.sha }} .
+          docker build --build-arg HUGO_BASEURL=https://kirk.newson.nz -t knpro.azurecr.io/kn-website:${{ github.sha }} .
           docker push knpro.azurecr.io/kn-website:${{ github.sha }}
       - name: AKS Context
         uses: Azure/aks-set-context@v1
