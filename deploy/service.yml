@@ -4,6 +4,7 @@ metadata:
   name: resume
   namespace: resume
 spec:
+  type: LoadBalancer
   selector:
     app: resume
   ports:
