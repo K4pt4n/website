@@ -17,6 +17,6 @@ spec:
     spec:
       containers:
       - name: website
-        image: knpro.azurecr.io/website:latest
+        image: knpro.azurecr.io/kn-website:latest
         ports:
         - containerPort: 80
