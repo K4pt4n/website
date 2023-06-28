@@ -1,6 +1,6 @@
 ---
 title: "Automated Tally Station"
-image: NA
+image: "/img/ats-entry.jpg"
 description: "This project was initiated to remove human personnel from harm by eliminating the need for their presence on the wharf while loading a vessel with logs."
 tags: [kubernetes,automation,safety,qrcode]
 link: NA
@@ -18,7 +18,7 @@ We used a series of cameras to take photos of the log faces and then used python
 
 We opted to use Kubernetes to host the workers to provide failover capability.
 
-Being crucial to operations redundacy was a major concern in all systems.
+Being crucial to operations redundancy was a major concern in all systems.
 
 # Technology Stack
 - Python 3

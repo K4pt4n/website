@@ -1,20 +1,4 @@
 ---
-title: Creations
-date: 2023-06-18T08:00:28.528Z
-link: Not applicable
-image: /img/marketplace-summary.webp
-description: Not applicable
-weight: 10
-sitemap:
-  priority: 0.5
-  weight: 0.8
+title: Projects
+featured: no
 ---
-<!--
-
-This page represents the landing page for "creations" section. It is also shown under the homepage header for "creations". It should be therefore relatively short and sweet.
-
-\-->
-
-
-
-<p>These are some examples of projects I have been involved in.</p>
