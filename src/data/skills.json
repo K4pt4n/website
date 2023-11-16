@@ -14,6 +14,7 @@
         "grouping": "Cloud - Azure",
         "skills": [
             "ARM Templates",
+            "Functions",
             "Storage",
             "Networking",
             "Azure SQL",
@@ -38,7 +39,7 @@
             "IIS",
             "Switch Configuration",
             "Firewall Configuration",
-            ""
+            "SQL Server"
         ]
     }            
 ]
