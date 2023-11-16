@@ -3,7 +3,7 @@ title: "Automated Tally Station"
 image: "/img/ats-entry.jpg"
 description: "This project was initiated to remove human personnel from harm by eliminating the need for their presence on the wharf while loading a vessel with logs."
 tags: [kubernetes,automation,safety,qrcode]
-link: NA
+link: "Automated Tally Station"
 fact: "QRCode Recognition from pictures taken with basler cameras"
 draft: true
 ---
